@@ -1,0 +1,53 @@
+1) Observe o trecho de código abaixo:
+
+int INDICE = 13, SOMA = 0, K = 0;
+
+enquanto K < INDICE faça
+
+{
+
+K = K + 1;
+
+SOMA = SOMA + K;
+
+}
+
+imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA?
+resposta: 91
+
+3) Descubra a lógica e complete o próximo elemento:
+
+a) 1, 3, 5, 7, ___ = 9
+ A lógica é adicionar 2 ao número anterior. O próximo elemento é 9.
+
+b) 2, 4, 8, 16, 32, 64, ____ = 128
+A lógica é multiplicar o número anterior por 2. O próximo elemento é 128.
+
+c) 0, 1, 4, 9, 16, 25, 36, ____ = 49
+A lógica é elevar ao quadrado o número anterior. O próximo elemento é 49.
+
+d) 4, 16, 36, 64, ____ = 100
+A lógica é elevar ao quadrado os números ímpares consecutivos. O próximo elemento é 100.
+
+e) 1, 1, 2, 3, 5, 8, ____ = 13
+A lógica é somar os dois números anteriores da sequência para obter o próximo. O próximo elemento é 13.
+
+f) 2,10, 12, 16, 17, 18, 19, ____ = 20
+A lógica é que os números aumentam em um padrão irregular, com alguns números pulados. O próximo elemento é 20.
+
+
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de 
+Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+resposta:
+O carro estará mais próximo de Ribeirão Preto do que o caminhão quando eles se cruzarem na rodovia, já que o carro terá percorrido exatamente 100 km (ou seja, estará no meio do caminho), enquanto o caminhão 
+ainda estará a 3,33 km de Franca.
